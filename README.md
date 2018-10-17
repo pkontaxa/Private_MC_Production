@@ -20,4 +20,5 @@ Note : Due to the problem with the Neutrino Gun Dataset (https://hypernews.cern.
 
 - Then, you submit jobs in CRAB using "crab3_config_MC_v3.py", where you define how many events you want to generate.
 
-### Producing miniAOD from AOD
+### Producing miniAOD from AOD (step1)
+- After the production of AOD files, you can use the custom cfg file "SUS-RunIISpring16MiniAODv2-00120_1_Pantelis_cfg.py" to produce miniAOD from AOD using "crab3_config_MC_STEP1_v2.py"
