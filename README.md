@@ -1,5 +1,5 @@
 # Private MC Production
-Set of commands on how to produce Private MC production for T1tttt SUSY mass points
+Set of commands and files on how to produce Private MC production for T1tttt SUSY mass points
 
 ### Install instructions
 ```
