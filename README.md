@@ -3,8 +3,7 @@ Set of commands on how to produce Private MC production for T1tttt SUSY mass poi
 
 ### Install instructions
 ```
-cmsrel 
-CMSSW_8_0_5_patch1
+cmsrel CMSSW_8_0_5_patch1
 cd CMSSW_8_0_5_patch1/src
 git clone https://github.com/pkontaxa/Private_MC_Production
 scram b -j 16
