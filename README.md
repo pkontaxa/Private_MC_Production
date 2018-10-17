@@ -19,3 +19,5 @@ cmsDriver.py Configuration/GenProduction/python/SUS-RunIISpring16FSPremix-00002-
 Note : Due to the problem with the Neutrino Gun Dataset (https://hypernews.cern.ch/HyperNews/CMS/get/computing-tools/4235/1/1/1.html) one way to by-pass this is to use directly the file "list_of_files_Neutrino_Gun_80X.txt" inside the cfg file, before submitting jobs to crab. After submitting CRAB jobs, the system will find the relevant files automatically (see example on file "SUS-RunIISpring16FSPremix-00002_1_cfg_Pantelis_v5.py" used to generated T1tttt(1.9, 0.1) ).
 
 - Then, you submit jobs in CRAB using "crab3_config_MC_v3.py", where you define how many events you want to generate.
+
+### Producing miniAOD from AOD
