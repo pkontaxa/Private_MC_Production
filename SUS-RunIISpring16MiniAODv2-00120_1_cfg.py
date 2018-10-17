@@ -1,8 +1,3 @@
-# Auto generated configuration file
-# using: 
-# Revision: 1.19 
-# Source: /local/reps/CMSSW/CMSSW/Configuration/Applications/python/ConfigBuilder.py,v 
-# with command line options: step1 --filein file:/eos/cms/store/user/pakontax/MC_Production/CRAB_PrivateMC/MC_Production_Test/181009_085352/0000/SUS-RunIISpring16FSPremix-00002_537.root --fileout file:SUS-RunIISpring16MiniAODv2-00120.root --mc --eventcontent MINIAODSIM --runUnscheduled --fast --datatier MINIAODSIM --conditions 80X_mcRun2_asymptotic_2016_miniAODv2_v0 --step PAT --era Run2_25ns --python_filename SUS-RunIISpring16MiniAODv2-00120_1_cfg.py --no_exec --customise Configuration/DataProcessing/Utils.addMonitoring -n 5760
 import FWCore.ParameterSet.Config as cms
 
 from Configuration.StandardSequences.Eras import eras
